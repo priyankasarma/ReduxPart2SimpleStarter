@@ -1,4 +1,4 @@
-export default () => {
+export default (currentState, action) => {
     return [
         { title: 'Harry Potter' },
         { title: 'Lord of the Rings' },
